@@ -1,0 +1,205 @@
+body {
+	font-family: "Open Sans", "Arial";
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #777777;
+}
+
+#sidebar {
+	position: fixed;
+	left: 0px;
+	padding: 20px 0px 0px 30px;
+	text-align: left;
+}
+
+#sidebar-main {
+	list-style-type: none;
+	margin-left: -40px;
+}
+
+.sidebar-mainitem {
+	font-size: 18px;
+	padding-top: 8px;
+}
+
+#sidebar-sub {
+	list-style-type: none;
+	margin-left: -20px;
+	display: none;
+}
+
+.sidebar-subitem {
+	font-size: 15px;
+	padding-top: 3px;
+}
+
+#sidebar-currentpage {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+	color: #7B7B7B;
+}
+
+.grow {
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.grow:hover, .grow:focus, .grow:active {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.title {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#container {
+ 	width: 960px;
+ 	margin-left: auto;   
+ 	margin-right: auto;
+	padding: 20px 0px 0px 161px;
+}
+
+ /* PHOTOS */
+
+#photo-container {
+ 	width: 960px;
+ 	margin-left: auto;   
+ 	margin-right: auto;
+	padding: 20px 0px 0px 161px;
+}
+
+.landscape-box {
+	width: 810px;
+	height: 539px;
+	margin: 5px 5px 12px 72px;
+	position: relative;
+	overflow: hidden;
+}
+
+.landscape-photo {
+	width: 810px;
+	height: 539px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.portrait-box { 
+	width: 400px;
+	height: 600px;
+	margin: 5px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+.portrait-photo {
+	width: 400px;
+	height: 600px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.square-box {
+	width: 400px;
+	height: 400px;
+	margin: 5px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+.square-photo {
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.box-caption {
+	float: left;
+	position: absolute;
+	background: #777;
+	height: 37px;
+	width: 100%;
+	opacity: .8;
+	bottom: -50px;
+	color: white;
+	font-size: 16px;
+	padding-top: 13px;
+}
+
+/* ABOUT PAGE */
+
+#about {
+	padding-top: 20px;
+}
+
+#about-photo {
+	width: 810px;
+}
+
+
+#links {
+	width: 100%;
+}
+
+.links-items {
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px 20px;
+}
+
+/* CONTACT PAGE */
+
+.contact {
+	display: block;
+	border: 2px solid rgba(0,0,0,0.3);
+	padding: 8px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	font-family: "Open Sans", "Arial";
+	font-size: 14px;
+}
+
+#contact-message {
+	width: 600px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact-submit {
+	padding: 5px 10px;
+	border: 2px solid rgba(0,0,0,0.3);
+	width: 60px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#thanks {
+	padding: 5px 10px;
+	width: 60px;
+	font-size: 16px;
+	display: none;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -1,0 +1,43 @@
+<html>
+
+<head>
+	<title>contact</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="assets/style.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src = "assets/script.js"></script>
+</head>
+
+<body>
+	<div id = "sidebar">
+		<div id = "sidebar-title"><img src = "assets/emily.png"></div>
+		<ul id = "sidebar-main">
+			<li class = "sidebar-mainitem grow"><a href = "about.html">ABOUT</a></li>
+			<li class = "sidebar-mainitem grow" id = "photography"><a href = "#">PHOTOGRAPHY</a>
+				<ul id = "sidebar-sub">
+					<li class = "sidebar-subitem grow"><a href = "people.html">PEOPLE</a></li>
+					<li class = "sidebar-subitem grow"><a href = "eat.html">EAT</a></li>
+					<li class = "sidebar-subitem grow"><a href = "wanderlust.html">WANDERLUST</a></li>
+					<li class = "sidebar-subitem grow"><a href = "snapshots.html">SNAPSHOTS</a></li>
+				</ul>
+			</li>
+			<li class = "sidebar-mainitem grow" id = "sidebar-currentpage"><a href = "contact.html">CONTACT</a></li>
+		</ul>
+	</div>
+
+	<div id = "container">
+		<div class = "title">get in touch</div>
+
+		<form>
+			<input type = "text" class = "contact" placeholder = "name" />
+			<input type = "text" class = "contact" placeholder = "email" />
+			<input type = "text" class = "contact" placeholder = "subject" />
+			<textarea class = "contact" id = "contact-message" placeholder = "message"></textarea>
+		</form>
+
+		<div id = "thanks">thanks!</div>
+		<div id = "contact-submit" class = "grow">submit</div>
+	</div>
+</body>
+
+</html>
